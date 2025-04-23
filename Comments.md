@@ -42,7 +42,7 @@ I stuck with NestJS patterns like using services and dependency injection, even 
 
 ## Future steps (Production level):
 
-- Tests coverage - I would write tests that focus on the key features— analytics, filtering high heart rate readings, and tracking request counts, to ensure that the core logic behaves as expected.
+- Tests coverage - I would write tests in the controller.spec.ts files that focus on the key features— analytics, filtering high heart rate readings, and tracking request counts, to ensure that the core logic behaves as expected.
 - Extensive error handling - Using Exception Filters,
 - Authentication and Authorization would need to be taken care of
 - Replace in-memory mock data with a database (e.g., SQLite or PostgreSQL using TypeORM/Prisma).
