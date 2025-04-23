@@ -1,0 +1,48 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "age": 34,
+      "gender": "female"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "age": 45,
+      "gender": "male"
+    }
+  ],
+  "heartRateReadings": [
+    {
+      "patientId": "1",
+      "timestamp": "2024-03-01T08:00:00Z",
+      "heartRateReading": 85
+    },
+    {
+      "patientId": "1",
+      "timestamp": "2024-03-01T10:30:00Z",
+      "heartRateReading": 101
+    },
+    {
+      "patientId": "1",
+      "timestamp": "2024-03-01T13:45:00Z",
+      "heartRateReading": 97
+    },
+    {
+      "patientId": "2",
+      "timestamp": "2024-03-02T09:15:00Z",
+      "heartRateReading": 88
+    },
+    {
+      "patientId": "2",
+      "timestamp": "2024-03-02T11:00:00Z",
+      "heartRateReading": 105
+    },
+    {
+      "patientId": "2",
+      "timestamp": "2024-03-02T14:20:00Z",
+      "heartRateReading": 93
+    }
+  ]
+}
